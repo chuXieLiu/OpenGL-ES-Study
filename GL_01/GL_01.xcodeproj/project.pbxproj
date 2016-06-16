@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8948D0FC1D12849500603ADC /* CXGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8948D0FB1D12849500603ADC /* CXGLView.m */; };
 		89AB4E3F1D0E5AD200744F38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AB4E3E1D0E5AD200744F38 /* main.m */; };
 		89AB4E421D0E5AD200744F38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AB4E411D0E5AD200744F38 /* AppDelegate.m */; };
 		89AB4E451D0E5AD200744F38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89AB4E441D0E5AD200744F38 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8948D0FA1D12849500603ADC /* CXGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXGLView.h; sourceTree = "<group>"; };
+		8948D0FB1D12849500603ADC /* CXGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXGLView.m; sourceTree = "<group>"; };
 		89AB4E3A1D0E5AD200744F38 /* GL_01.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GL_01.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89AB4E3E1D0E5AD200744F38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		89AB4E401D0E5AD200744F38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				89AB4E4B1D0E5AD200744F38 /* LaunchScreen.storyboard */,
 				89AB4E4E1D0E5AD200744F38 /* Info.plist */,
 				89AB4E3D1D0E5AD200744F38 /* Supporting Files */,
+				8948D0FA1D12849500603ADC /* CXGLView.h */,
+				8948D0FB1D12849500603ADC /* CXGLView.m */,
 			);
 			path = GL_01;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			files = (
 				89AB4E451D0E5AD200744F38 /* ViewController.m in Sources */,
 				89AB4E421D0E5AD200744F38 /* AppDelegate.m in Sources */,
+				8948D0FC1D12849500603ADC /* CXGLView.m in Sources */,
 				89AB4E3F1D0E5AD200744F38 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +306,7 @@
 				89AB4E531D0E5AD200744F38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
